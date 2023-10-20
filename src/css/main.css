@@ -1,0 +1,48 @@
+@import "variables.css";
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--main-bg-color);
+    font-family: var(--primary-font);
+    color: #FFFFFF;
+}
+html {
+    scroll-behavior: smooth;
+}
+canvas {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.container {
+    position: relative;
+    z-index: 2;
+    height: 3500px;
+
+}
+
+
+/* Scroll bar css */
+/* Firefox */
+* {
+    scrollbar-width: none;
+    scrollbar-color: var(--scroll-bar-color) none;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 1px;
+}
+
+*::-webkit-scrollbar-track {
+    background: none;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--scroll-bar-color);
+    border-radius: 20px;
+    border: 0px none;
+}

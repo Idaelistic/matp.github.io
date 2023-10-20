@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800;900&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+:root {
+    --main-bg-color: #202023;
+    --primary-color: #3742fa;
+    --primary-font: 'M PLUS Rounded 1c', sans-serif;
+
+    --scroll-bar-color: #3742fa;
+    --scroll-bar-bgcolor: #202023;
+}
