@@ -2,7 +2,7 @@
 ## Installation
 
 ```sh
-npm create vite@latest my-vue-app -- --template vanilla
+npm install
 npm install three
 npm install gsap
 ```
